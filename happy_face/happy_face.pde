@@ -3,7 +3,7 @@ void setup() {
   size(700, 500); // Size of canvas
   background(100, 10, 100); // Background color as rgb values
 
- color gold = color (239,170,4);
+ 
 
 
 
@@ -11,8 +11,11 @@ void setup() {
 }
 
 void draw() {
- rect(300,100,100,100); 
+  fill(0,200,0);
+  rect(300,100,100,100); 
+  fill(200,0,0);
   rect(100,100,100,100); 
+  fill(0,0,200);
   rect(500,100,100,100); 
   String s = "strokeWeight=4.";
   String A = "red fill";
