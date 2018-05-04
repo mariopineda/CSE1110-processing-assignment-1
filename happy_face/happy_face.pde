@@ -21,6 +21,8 @@ void draw() {
   String A = "red fill";
   String L = "StrokeWeight=10 and fill=blue";
 
+   ellipse(350,375,245,245);
+
 fill(9);
 text(s, 300, 200, 100, 100);  
   text(A, 100, 200, 100, 100);
